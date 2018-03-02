@@ -27,10 +27,13 @@ Program Name  | apt name | Functionality rating (0-5) | website | Notes  | Windo
 ADB | | 2 | [developer.android.com](https://developer.android.com/studio/command-line/adb.html) | Installs; see [this image](https://cloud.githubusercontent.com/assets/7135398/17540401/6b94e568-5ee8-11e6-8523-b3efa1e4edd8.png) for example, requires adb on Windows too.
 Anaconda || 4 | [Continuum.io](https://www.continuum.io/downloads) | Simple commands work after getting listed WSL build, symlinks issue has been fixed | 14393
 Apache server | apache2 | 2 | [httpd.apache.org](https://httpd.apache.org/) | Must use a loopback for networking, buggy
+<<<<<<< HEAD
 <<<<<<< 98d01f6e56b476722afb35c2c91625c2f0666d5c
 Apache SINGA |  | 4 | [singa.apache.org](https://singa.apache.org/) | Only CPU version is supported. 
 =======
 >>>>>>> Update README.md
+=======
+>>>>>>> 6ab04524b0909fc7aed72fa7c89968975d8ed0c4
 apt | | 5 | [wiki.debian.org/Apt](https://wiki.debian.org/Apt) | Works fine | 16299.19
 apt-fast | | 3 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | Simple commands work. Needs more testing | 15063.138
 archey | | 3 | [djmelik/archey](https://github.com/djmelik/archey)| Works for the most part, but displays disk usage incorrectly | 15063.138
@@ -54,6 +57,7 @@ fish | | 5 | [fish.sh](https://fish.sh/) | works fine
 fortune | | 5 | [wikipedia - Fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) | works fine
 fsharp | | 4 | [fsharp.org](http://fsharp.org/) | Installed without issue, needs more testing. To use fsi (F# Interactive) `fsharpi` | 14393
 gazebo | | 3 | [gazebosim.org](http://gazebosim.org/) | Very laggy tested. Requries X11 server like VcXsrv and setting a few environment variables
+<<<<<<< HEAD
 <<<<<<< 1255e95b72eb0c0c58811d2decb5f765fbe2b411
 <<<<<<< 98d01f6e56b476722afb35c2c91625c2f0666d5c
 gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Runs as expected, more testing needed | 16299.19
@@ -63,6 +67,9 @@ gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Run as expecte
 =======
 gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Runs as expected, more testing needed | 16299.19
 >>>>>>> Update README.md
+=======
+gcc | build-essential | 4 | [gcc.gnu.org](https://gcc.gnu.org/) | Runs as expected, more testing needed | 16299.19
+>>>>>>> 6ab04524b0909fc7aed72fa7c89968975d8ed0c4
 gedit | gedit | 5 | [wiki.gnome.org/Apps/Gedit](https://wiki.gnome.org/Apps/Gedit) | Works just fine after X Server configuration. Will throw some Dbus errors, but doesn't seem to affect performance. Can read and write files to Linux and Windows | 16275
 ghc | ghc | 4 | [Haskell on Bash](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/) [haskell.org/ghc](https://www.haskell.org/ghc/) | Needs more tests | 15031
 gimp | gimp | 5 | [gimp](https//gimp.org) | Seems to work just fine. Can read and write files to both Linux and Windows. Xming freezes, VcXsrv works fine | 16275
